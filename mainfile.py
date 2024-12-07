@@ -1,0 +1,18 @@
+import os
+WINDOW__WIDTH = 800
+WINDOW__HEIGHT = 800
+WINDOW__POSITION__RIGHT = 0
+WINDOW__POSITION__DOWN = 0 
+
+PATH__DIRECTORY = os.path.dirname(__file__)
+PATH__IMAGES = os.path.join(PATH__DIRECTORY, 'images')
+
+COLOR__BLACK =  "#726461"
+COLOR__RED =  "#ff3333"
+COLOR__BLUE =  "#53D4F7"
+COLOR__GREEN =  "#00B359"
+COLOR__WHITE =  "#ffffff"
+COLOR__PURPLE =  "#a64dff"
+COLOR__YELLOW =  "#ffff00"
+
+COLOR__BACKGROUND = "#E2F7B5"
